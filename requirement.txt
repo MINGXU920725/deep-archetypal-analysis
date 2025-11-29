@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+py_pcha
+torch
+torchvision
+scikit-learn

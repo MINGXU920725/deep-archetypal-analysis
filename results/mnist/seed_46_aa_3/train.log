@@ -1,0 +1,713 @@
+[Init] Using device: cuda
+[Config] Parameters saved to: results/mnist/seed_46_aa_3/params.json
+[Training Start] 50 epochs total
+Warmup: first 5 epochs | Semantic: 6–10 | AA starts from 11
+[Config] batch_size=500 | lr=0.005 | gamma=60.0 | cos_sim_weight=1.0
+
+===================== Epoch 1/50 =====================
+Mode: Warmup (KL + Reconstruction)
+[Train] Batch 010 | I(t;x): 0.1643 | I(t;y): 2.3002 | Recon: 0.0678 | Total: 13.7203
+[Train] Batch 020 | I(t;x): 0.1746 | I(t;y): 2.3004 | Recon: 0.0650 | Total: 13.1785
+[Train] Batch 030 | I(t;x): 0.1942 | I(t;y): 2.3000 | Recon: 0.0620 | Total: 12.6013
+[Train] Batch 040 | I(t;x): 0.3088 | I(t;y): 2.2997 | Recon: 0.0586 | Total: 12.0327
+
+[Summary] Epoch 1 Train Total Loss: 15.1040
+=======================================================================
+
+===================== Epoch 2/50 =====================
+Mode: Warmup (KL + Reconstruction)
+[Train] Batch 010 | I(t;x): 0.4825 | I(t;y): 2.2999 | Recon: 0.0556 | Total: 11.6107
+[Train] Batch 020 | I(t;x): 0.7316 | I(t;y): 2.3000 | Recon: 0.0521 | Total: 11.1576
+[Train] Batch 030 | I(t;x): 0.8061 | I(t;y): 2.3000 | Recon: 0.0479 | Total: 10.3873
+[Train] Batch 040 | I(t;x): 0.8486 | I(t;y): 2.3000 | Recon: 0.0454 | Total: 9.9309
+
+[Summary] Epoch 2 Train Total Loss: 11.0414
+=======================================================================
+
+===================== Epoch 3/50 =====================
+Mode: Warmup (KL + Reconstruction)
+[Train] Batch 010 | I(t;x): 0.8354 | I(t;y): 2.2998 | Recon: 0.0439 | Total: 9.6088
+[Train] Batch 020 | I(t;x): 0.7789 | I(t;y): 2.2998 | Recon: 0.0429 | Total: 9.3516
+[Train] Batch 030 | I(t;x): 0.8159 | I(t;y): 2.2998 | Recon: 0.0396 | Total: 8.7318
+[Train] Batch 040 | I(t;x): 0.8274 | I(t;y): 2.2997 | Recon: 0.0383 | Total: 8.4932
+
+[Summary] Epoch 3 Train Total Loss: 9.1923
+=======================================================================
+
+===================== Epoch 4/50 =====================
+Mode: Warmup (KL + Reconstruction)
+[Train] Batch 010 | I(t;x): 0.8633 | I(t;y): 2.2998 | Recon: 0.0372 | Total: 8.3049
+[Train] Batch 020 | I(t;x): 0.8615 | I(t;y): 2.2999 | Recon: 0.0364 | Total: 8.1432
+[Train] Batch 030 | I(t;x): 0.8423 | I(t;y): 2.2999 | Recon: 0.0341 | Total: 7.6660
+[Train] Batch 040 | I(t;x): 0.8190 | I(t;y): 2.2998 | Recon: 0.0326 | Total: 7.3353
+
+[Summary] Epoch 4 Train Total Loss: 7.8842
+=======================================================================
+
+===================== Epoch 5/50 =====================
+Mode: Warmup (KL + Reconstruction)
+[Train] Batch 010 | I(t;x): 0.7945 | I(t;y): 2.2999 | Recon: 0.0317 | Total: 7.1293
+[Train] Batch 020 | I(t;x): 0.7825 | I(t;y): 2.3000 | Recon: 0.0302 | Total: 6.8321
+[Train] Batch 030 | I(t;x): 0.7612 | I(t;y): 2.2998 | Recon: 0.0322 | Total: 7.2010
+[Train] Batch 040 | I(t;x): 0.7418 | I(t;y): 2.2999 | Recon: 0.0320 | Total: 7.1475
+
+[Summary] Epoch 5 Train Total Loss: 7.1640
+=======================================================================
+
+===================== Epoch 6/50 =====================
+Mode: Semantic (KL + Recon + weak MI)
+[Train] Batch 010 | I(t;x): 0.7560 | I(t;y): 2.1549 | Recon: 0.0309 | Total: 6.9522
+[Train] Batch 020 | I(t;x): 0.7445 | I(t;y): 1.7052 | Recon: 0.0305 | Total: 6.8448
+[Train] Batch 030 | I(t;x): 0.7359 | I(t;y): 1.1731 | Recon: 0.0292 | Total: 6.5770
+[Train] Batch 040 | I(t;x): 0.7505 | I(t;y): 0.1423 | Recon: 0.0307 | Total: 6.8998
+
+[Summary] Epoch 6 Train Total Loss: 6.7240
+=======================================================================
+
+===================== Epoch 7/50 =====================
+Mode: Semantic (KL + Recon + weak MI)
+[Train] Batch 010 | I(t;x): 0.7556 | I(t;y): 0.0164 | Recon: 0.0283 | Total: 6.4186
+[Train] Batch 020 | I(t;x): 0.7746 | I(t;y): 0.0019 | Recon: 0.0284 | Total: 6.4610
+[Train] Batch 030 | I(t;x): 0.7900 | I(t;y): 0.0013 | Recon: 0.0274 | Total: 6.2700
+[Train] Batch 040 | I(t;x): 0.7617 | I(t;y): 0.0007 | Recon: 0.0268 | Total: 6.1213
+
+[Summary] Epoch 7 Train Total Loss: 6.2966
+=======================================================================
+
+===================== Epoch 8/50 =====================
+Mode: Semantic (KL + Recon + weak MI)
+[Train] Batch 010 | I(t;x): 0.7735 | I(t;y): 0.0003 | Recon: 0.0264 | Total: 6.0471
+[Train] Batch 020 | I(t;x): 0.7601 | I(t;y): 0.0006 | Recon: 0.0257 | Total: 5.9094
+[Train] Batch 030 | I(t;x): 0.7493 | I(t;y): 0.0003 | Recon: 0.0263 | Total: 6.0046
+[Train] Batch 040 | I(t;x): 0.7502 | I(t;y): 0.0004 | Recon: 0.0252 | Total: 5.7865
+
+[Summary] Epoch 8 Train Total Loss: 5.9931
+=======================================================================
+
+===================== Epoch 9/50 =====================
+Mode: Semantic (KL + Recon + weak MI)
+[Train] Batch 010 | I(t;x): 0.7583 | I(t;y): 0.0003 | Recon: 0.0257 | Total: 5.9078
+[Train] Batch 020 | I(t;x): 0.7516 | I(t;y): 0.0005 | Recon: 0.0251 | Total: 5.7750
+[Train] Batch 030 | I(t;x): 0.7622 | I(t;y): 0.0003 | Recon: 0.0259 | Total: 5.9349
+[Train] Batch 040 | I(t;x): 0.7583 | I(t;y): 0.0004 | Recon: 0.0255 | Total: 5.8564
+
+[Summary] Epoch 9 Train Total Loss: 5.7854
+=======================================================================
+
+===================== Epoch 10/50 =====================
+Mode: Semantic (KL + Recon + weak MI)
+[Train] Batch 010 | I(t;x): 0.7218 | I(t;y): 0.0005 | Recon: 0.0247 | Total: 5.6528
+[Train] Batch 020 | I(t;x): 0.7254 | I(t;y): 0.0006 | Recon: 0.0242 | Total: 5.5557
+[Train] Batch 030 | I(t;x): 0.7611 | I(t;y): 0.0003 | Recon: 0.0258 | Total: 5.9279
+[Train] Batch 040 | I(t;x): 0.7575 | I(t;y): 0.0007 | Recon: 0.0234 | Total: 5.4446
+
+[Summary] Epoch 10 Train Total Loss: 5.6667
+=======================================================================
+
+===================== Epoch 11/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Init] Initializing class-wise archetypes (multi-seed + fallback)...
+[Init] Archetypes initialized.
+[Train] Batch 010 | I(t;x): 0.8771 | I(t;y): 0.0001 | Recon: 0.0557 | Total: 17.4450
+   ↳ AA sample loss: 0.018957 | AA cos loss: 0.071584
+[Train] Batch 020 | I(t;x): 1.1619 | I(t;y): 0.0001 | Recon: 0.0431 | Total: 11.5528
+   ↳ AA sample loss: 0.017614 | AA cos loss: 0.011749
+[Train] Batch 030 | I(t;x): 1.3454 | I(t;y): 0.0000 | Recon: 0.0386 | Total: 10.7355
+   ↳ AA sample loss: 0.018006 | AA cos loss: 0.009797
+[Train] Batch 040 | I(t;x): 1.3001 | I(t;y): 0.0000 | Recon: 0.0337 | Total: 9.6978
+   ↳ AA sample loss: 0.017793 | AA cos loss: 0.009924
+
+[Summary] Epoch 11 Train Total Loss: 16.7308
+[Collapse Monitor] Avg intra-class archetype distance: 0.3528
+=======================================================================
+
+===================== Epoch 12/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.2388 | I(t;y): 0.0000 | Recon: 0.0325 | Total: 9.4091
+   ↳ AA sample loss: 0.017664 | AA cos loss: 0.010010
+[Train] Batch 020 | I(t;x): 1.2241 | I(t;y): 0.0000 | Recon: 0.0319 | Total: 9.2194
+   ↳ AA sample loss: 0.017588 | AA cos loss: 0.009429
+[Train] Batch 030 | I(t;x): 1.2430 | I(t;y): 0.0000 | Recon: 0.0307 | Total: 8.9302
+   ↳ AA sample loss: 0.017395 | AA cos loss: 0.008474
+[Train] Batch 040 | I(t;x): 1.2007 | I(t;y): 0.0000 | Recon: 0.0297 | Total: 8.6763
+   ↳ AA sample loss: 0.017264 | AA cos loss: 0.008434
+
+[Summary] Epoch 12 Train Total Loss: 9.1558
+[Collapse Monitor] Avg intra-class archetype distance: 0.3634
+=======================================================================
+
+===================== Epoch 13/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.2742 | I(t;y): 0.0000 | Recon: 0.0288 | Total: 8.5820
+   ↳ AA sample loss: 0.017181 | AA cos loss: 0.008742
+[Train] Batch 020 | I(t;x): 1.2307 | I(t;y): 0.0000 | Recon: 0.0277 | Total: 8.3104
+   ↳ AA sample loss: 0.017132 | AA cos loss: 0.008671
+[Train] Batch 030 | I(t;x): 1.2267 | I(t;y): 0.0000 | Recon: 0.0278 | Total: 8.2672
+   ↳ AA sample loss: 0.016989 | AA cos loss: 0.007635
+[Train] Batch 040 | I(t;x): 1.2273 | I(t;y): 0.0000 | Recon: 0.0267 | Total: 8.0147
+   ↳ AA sample loss: 0.016840 | AA cos loss: 0.007121
+
+[Summary] Epoch 13 Train Total Loss: 8.3566
+[Collapse Monitor] Avg intra-class archetype distance: 0.3792
+=======================================================================
+
+===================== Epoch 14/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1989 | I(t;y): 0.0000 | Recon: 0.0273 | Total: 8.1142
+   ↳ AA sample loss: 0.016720 | AA cos loss: 0.007568
+[Train] Batch 020 | I(t;x): 1.2404 | I(t;y): 0.0000 | Recon: 0.0268 | Total: 8.0081
+   ↳ AA sample loss: 0.016597 | AA cos loss: 0.006973
+[Train] Batch 030 | I(t;x): 1.2227 | I(t;y): 0.0000 | Recon: 0.0256 | Total: 7.7742
+   ↳ AA sample loss: 0.016537 | AA cos loss: 0.007320
+[Train] Batch 040 | I(t;x): 1.3272 | I(t;y): 0.0000 | Recon: 0.0261 | Total: 7.9242
+   ↳ AA sample loss: 0.016333 | AA cos loss: 0.006600
+
+[Summary] Epoch 14 Train Total Loss: 8.0199
+[Collapse Monitor] Avg intra-class archetype distance: 0.4005
+=======================================================================
+
+===================== Epoch 15/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.2001 | I(t;y): 0.0000 | Recon: 0.0249 | Total: 7.5284
+   ↳ AA sample loss: 0.016223 | AA cos loss: 0.006279
+[Train] Batch 020 | I(t;x): 1.1933 | I(t;y): 0.0000 | Recon: 0.0258 | Total: 7.7455
+   ↳ AA sample loss: 0.016130 | AA cos loss: 0.007103
+[Train] Batch 030 | I(t;x): 1.1784 | I(t;y): 0.0000 | Recon: 0.0251 | Total: 7.5285
+   ↳ AA sample loss: 0.016067 | AA cos loss: 0.006175
+[Train] Batch 040 | I(t;x): 1.1566 | I(t;y): 0.0000 | Recon: 0.0260 | Total: 7.6954
+   ↳ AA sample loss: 0.015970 | AA cos loss: 0.006216
+
+[Summary] Epoch 15 Train Total Loss: 7.6711
+[Collapse Monitor] Avg intra-class archetype distance: 0.4251
+=======================================================================
+
+===================== Epoch 16/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1700 | I(t;y): 0.0000 | Recon: 0.0239 | Total: 7.2346
+   ↳ AA sample loss: 0.015813 | AA cos loss: 0.005719
+[Train] Batch 020 | I(t;x): 1.2056 | I(t;y): 0.0000 | Recon: 0.0260 | Total: 7.7141
+   ↳ AA sample loss: 0.015710 | AA cos loss: 0.006089
+[Train] Batch 030 | I(t;x): 1.1960 | I(t;y): 0.0000 | Recon: 0.0252 | Total: 7.5154
+   ↳ AA sample loss: 0.015825 | AA cos loss: 0.005555
+[Train] Batch 040 | I(t;x): 1.1849 | I(t;y): 0.0000 | Recon: 0.0252 | Total: 7.4820
+   ↳ AA sample loss: 0.015643 | AA cos loss: 0.005271
+
+[Summary] Epoch 16 Train Total Loss: 7.4502
+[Collapse Monitor] Avg intra-class archetype distance: 0.4544
+=======================================================================
+
+===================== Epoch 17/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1734 | I(t;y): 0.0000 | Recon: 0.0239 | Total: 7.1847
+   ↳ AA sample loss: 0.015455 | AA cos loss: 0.004950
+[Train] Batch 020 | I(t;x): 1.1641 | I(t;y): 0.0000 | Recon: 0.0239 | Total: 7.2130
+   ↳ AA sample loss: 0.015374 | AA cos loss: 0.005827
+[Train] Batch 030 | I(t;x): 1.1519 | I(t;y): 0.0000 | Recon: 0.0238 | Total: 7.1320
+   ↳ AA sample loss: 0.015201 | AA cos loss: 0.005165
+[Train] Batch 040 | I(t;x): 1.1597 | I(t;y): 0.0000 | Recon: 0.0241 | Total: 7.1900
+   ↳ AA sample loss: 0.015138 | AA cos loss: 0.004988
+
+[Summary] Epoch 17 Train Total Loss: 7.2297
+[Collapse Monitor] Avg intra-class archetype distance: 0.4857
+=======================================================================
+
+===================== Epoch 18/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.2006 | I(t;y): 0.0000 | Recon: 0.0232 | Total: 6.9952
+   ↳ AA sample loss: 0.014951 | AA cos loss: 0.004441
+[Train] Batch 020 | I(t;x): 1.1854 | I(t;y): 0.0000 | Recon: 0.0237 | Total: 7.0569
+   ↳ AA sample loss: 0.014678 | AA cos loss: 0.004048
+[Train] Batch 030 | I(t;x): 1.1376 | I(t;y): 0.0000 | Recon: 0.0233 | Total: 6.9497
+   ↳ AA sample loss: 0.014495 | AA cos loss: 0.004608
+[Train] Batch 040 | I(t;x): 1.1186 | I(t;y): 0.0000 | Recon: 0.0226 | Total: 6.7603
+   ↳ AA sample loss: 0.014376 | AA cos loss: 0.004420
+
+[Summary] Epoch 18 Train Total Loss: 7.0097
+[Collapse Monitor] Avg intra-class archetype distance: 0.5136
+=======================================================================
+
+===================== Epoch 19/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1571 | I(t;y): 0.0000 | Recon: 0.0233 | Total: 6.9381
+   ↳ AA sample loss: 0.014262 | AA cos loss: 0.004259
+[Train] Batch 020 | I(t;x): 1.1369 | I(t;y): 0.0000 | Recon: 0.0237 | Total: 6.9781
+   ↳ AA sample loss: 0.014105 | AA cos loss: 0.004208
+[Train] Batch 030 | I(t;x): 1.1602 | I(t;y): 0.0000 | Recon: 0.0234 | Total: 6.9398
+   ↳ AA sample loss: 0.013890 | AA cos loss: 0.004322
+[Train] Batch 040 | I(t;x): 1.1441 | I(t;y): 0.0000 | Recon: 0.0229 | Total: 6.7913
+   ↳ AA sample loss: 0.013750 | AA cos loss: 0.004146
+
+[Summary] Epoch 19 Train Total Loss: 6.8854
+[Collapse Monitor] Avg intra-class archetype distance: 0.5362
+=======================================================================
+
+===================== Epoch 20/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1206 | I(t;y): 0.0000 | Recon: 0.0229 | Total: 6.8142
+   ↳ AA sample loss: 0.013487 | AA cos loss: 0.004998
+[Train] Batch 020 | I(t;x): 1.1486 | I(t;y): 0.0000 | Recon: 0.0230 | Total: 6.8064
+   ↳ AA sample loss: 0.013389 | AA cos loss: 0.004103
+[Train] Batch 030 | I(t;x): 1.1021 | I(t;y): 0.0000 | Recon: 0.0217 | Total: 6.5000
+   ↳ AA sample loss: 0.013126 | AA cos loss: 0.004345
+[Train] Batch 040 | I(t;x): 1.1252 | I(t;y): 0.0000 | Recon: 0.0230 | Total: 6.7433
+   ↳ AA sample loss: 0.013024 | AA cos loss: 0.004094
+
+[Summary] Epoch 20 Train Total Loss: 6.7273
+[Collapse Monitor] Avg intra-class archetype distance: 0.5540
+=======================================================================
+
+===================== Epoch 21/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1183 | I(t;y): 0.0000 | Recon: 0.0218 | Total: 6.4879
+   ↳ AA sample loss: 0.012719 | AA cos loss: 0.004018
+[Train] Batch 020 | I(t;x): 1.1516 | I(t;y): 0.0000 | Recon: 0.0225 | Total: 6.6393
+   ↳ AA sample loss: 0.012602 | AA cos loss: 0.003911
+[Train] Batch 030 | I(t;x): 1.1372 | I(t;y): 0.0000 | Recon: 0.0220 | Total: 6.5261
+   ↳ AA sample loss: 0.012334 | AA cos loss: 0.004213
+[Train] Batch 040 | I(t;x): 1.1310 | I(t;y): 0.0000 | Recon: 0.0221 | Total: 6.5221
+   ↳ AA sample loss: 0.012119 | AA cos loss: 0.003963
+
+[Summary] Epoch 21 Train Total Loss: 6.6061
+[Collapse Monitor] Avg intra-class archetype distance: 0.5712
+=======================================================================
+
+===================== Epoch 22/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1160 | I(t;y): 0.0000 | Recon: 0.0229 | Total: 6.6621
+   ↳ AA sample loss: 0.011958 | AA cos loss: 0.004035
+[Train] Batch 020 | I(t;x): 1.1071 | I(t;y): 0.0000 | Recon: 0.0225 | Total: 6.5306
+   ↳ AA sample loss: 0.011571 | AA cos loss: 0.003922
+[Train] Batch 030 | I(t;x): 1.0903 | I(t;y): 0.0000 | Recon: 0.0227 | Total: 6.5609
+   ↳ AA sample loss: 0.011198 | AA cos loss: 0.004392
+[Train] Batch 040 | I(t;x): 1.0948 | I(t;y): 0.0000 | Recon: 0.0211 | Total: 6.2236
+   ↳ AA sample loss: 0.011190 | AA cos loss: 0.004015
+
+[Summary] Epoch 22 Train Total Loss: 6.5361
+[Collapse Monitor] Avg intra-class archetype distance: 0.5901
+=======================================================================
+
+===================== Epoch 23/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1527 | I(t;y): 0.0000 | Recon: 0.0216 | Total: 6.3473
+   ↳ AA sample loss: 0.010948 | AA cos loss: 0.003790
+[Train] Batch 020 | I(t;x): 1.1579 | I(t;y): 0.0000 | Recon: 0.0235 | Total: 6.7201
+   ↳ AA sample loss: 0.010685 | AA cos loss: 0.003693
+[Train] Batch 030 | I(t;x): 1.1219 | I(t;y): 0.0000 | Recon: 0.0218 | Total: 6.3564
+   ↳ AA sample loss: 0.010513 | AA cos loss: 0.003974
+[Train] Batch 040 | I(t;x): 1.1140 | I(t;y): 0.0000 | Recon: 0.0224 | Total: 6.4725
+   ↳ AA sample loss: 0.010189 | AA cos loss: 0.004375
+
+[Summary] Epoch 23 Train Total Loss: 6.3991
+[Collapse Monitor] Avg intra-class archetype distance: 0.6085
+=======================================================================
+
+===================== Epoch 24/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1273 | I(t;y): 0.0000 | Recon: 0.0232 | Total: 6.6173
+   ↳ AA sample loss: 0.010059 | AA cos loss: 0.004247
+[Train] Batch 020 | I(t;x): 1.1184 | I(t;y): 0.0000 | Recon: 0.0218 | Total: 6.2939
+   ↳ AA sample loss: 0.009860 | AA cos loss: 0.003805
+[Train] Batch 030 | I(t;x): 1.1177 | I(t;y): 0.0000 | Recon: 0.0215 | Total: 6.2525
+   ↳ AA sample loss: 0.009695 | AA cos loss: 0.004071
+[Train] Batch 040 | I(t;x): 1.1266 | I(t;y): 0.0000 | Recon: 0.0212 | Total: 6.1597
+   ↳ AA sample loss: 0.009502 | AA cos loss: 0.003748
+
+[Summary] Epoch 24 Train Total Loss: 6.2527
+[Collapse Monitor] Avg intra-class archetype distance: 0.6250
+=======================================================================
+
+===================== Epoch 25/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1491 | I(t;y): 0.0000 | Recon: 0.0218 | Total: 6.3071
+   ↳ AA sample loss: 0.009218 | AA cos loss: 0.003983
+[Train] Batch 020 | I(t;x): 1.1090 | I(t;y): 0.0000 | Recon: 0.0226 | Total: 6.4204
+   ↳ AA sample loss: 0.009120 | AA cos loss: 0.004182
+[Train] Batch 030 | I(t;x): 1.1225 | I(t;y): 0.0000 | Recon: 0.0213 | Total: 6.2346
+   ↳ AA sample loss: 0.008694 | AA cos loss: 0.005480
+[Train] Batch 040 | I(t;x): 1.0788 | I(t;y): 0.0000 | Recon: 0.0222 | Total: 6.2727
+   ↳ AA sample loss: 0.008582 | AA cos loss: 0.004040
+
+[Summary] Epoch 25 Train Total Loss: 6.2226
+[Collapse Monitor] Avg intra-class archetype distance: 0.6379
+=======================================================================
+
+===================== Epoch 26/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1170 | I(t;y): 0.0000 | Recon: 0.0215 | Total: 6.1550
+   ↳ AA sample loss: 0.008385 | AA cos loss: 0.003961
+[Train] Batch 020 | I(t;x): 1.1289 | I(t;y): 0.0000 | Recon: 0.0212 | Total: 6.0958
+   ↳ AA sample loss: 0.008293 | AA cos loss: 0.003872
+[Train] Batch 030 | I(t;x): 1.0985 | I(t;y): 0.0000 | Recon: 0.0210 | Total: 6.0242
+   ↳ AA sample loss: 0.008081 | AA cos loss: 0.003968
+[Train] Batch 040 | I(t;x): 1.1481 | I(t;y): 0.0000 | Recon: 0.0213 | Total: 6.1162
+   ↳ AA sample loss: 0.008035 | AA cos loss: 0.003645
+
+[Summary] Epoch 26 Train Total Loss: 6.1440
+[Collapse Monitor] Avg intra-class archetype distance: 0.6496
+=======================================================================
+
+===================== Epoch 27/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.0964 | I(t;y): 0.0000 | Recon: 0.0224 | Total: 6.2837
+   ↳ AA sample loss: 0.007822 | AA cos loss: 0.003987
+[Train] Batch 020 | I(t;x): 1.1080 | I(t;y): 0.0000 | Recon: 0.0215 | Total: 6.1008
+   ↳ AA sample loss: 0.007673 | AA cos loss: 0.003855
+[Train] Batch 030 | I(t;x): 1.1159 | I(t;y): 0.0000 | Recon: 0.0209 | Total: 5.9846
+   ↳ AA sample loss: 0.007471 | AA cos loss: 0.003842
+[Train] Batch 040 | I(t;x): 1.0939 | I(t;y): 0.0000 | Recon: 0.0209 | Total: 5.9401
+   ↳ AA sample loss: 0.007370 | AA cos loss: 0.003709
+
+[Summary] Epoch 27 Train Total Loss: 6.0727
+[Collapse Monitor] Avg intra-class archetype distance: 0.6603
+=======================================================================
+
+===================== Epoch 28/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.0973 | I(t;y): 0.0000 | Recon: 0.0202 | Total: 5.8013
+   ↳ AA sample loss: 0.007318 | AA cos loss: 0.003703
+[Train] Batch 020 | I(t;x): 1.0851 | I(t;y): 0.0000 | Recon: 0.0205 | Total: 5.8336
+   ↳ AA sample loss: 0.007147 | AA cos loss: 0.003778
+[Train] Batch 030 | I(t;x): 1.0799 | I(t;y): 0.0000 | Recon: 0.0209 | Total: 5.8980
+   ↳ AA sample loss: 0.007031 | AA cos loss: 0.003597
+[Train] Batch 040 | I(t;x): 1.0932 | I(t;y): 0.0000 | Recon: 0.0215 | Total: 6.0120
+   ↳ AA sample loss: 0.006965 | AA cos loss: 0.003398
+
+[Summary] Epoch 28 Train Total Loss: 5.9714
+[Collapse Monitor] Avg intra-class archetype distance: 0.6681
+=======================================================================
+
+===================== Epoch 29/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.0929 | I(t;y): 0.0000 | Recon: 0.0211 | Total: 5.9336
+   ↳ AA sample loss: 0.006915 | AA cos loss: 0.003499
+[Train] Batch 020 | I(t;x): 1.0824 | I(t;y): 0.0000 | Recon: 0.0213 | Total: 5.9632
+   ↳ AA sample loss: 0.006779 | AA cos loss: 0.003630
+[Train] Batch 030 | I(t;x): 1.0945 | I(t;y): 0.0000 | Recon: 0.0196 | Total: 5.6294
+   ↳ AA sample loss: 0.006678 | AA cos loss: 0.003639
+[Train] Batch 040 | I(t;x): 1.1382 | I(t;y): 0.0000 | Recon: 0.0213 | Total: 5.9925
+   ↳ AA sample loss: 0.006624 | AA cos loss: 0.003249
+
+[Summary] Epoch 29 Train Total Loss: 5.9067
+[Collapse Monitor] Avg intra-class archetype distance: 0.6742
+=======================================================================
+
+===================== Epoch 30/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1179 | I(t;y): 0.0000 | Recon: 0.0218 | Total: 6.0716
+   ↳ AA sample loss: 0.006403 | AA cos loss: 0.003527
+[Train] Batch 020 | I(t;x): 1.1144 | I(t;y): 0.0000 | Recon: 0.0207 | Total: 5.8515
+   ↳ AA sample loss: 0.006376 | AA cos loss: 0.003558
+[Train] Batch 030 | I(t;x): 1.1285 | I(t;y): 0.0000 | Recon: 0.0208 | Total: 5.8879
+   ↳ AA sample loss: 0.006307 | AA cos loss: 0.003594
+[Train] Batch 040 | I(t;x): 1.1572 | I(t;y): 0.0000 | Recon: 0.0213 | Total: 5.9941
+   ↳ AA sample loss: 0.006174 | AA cos loss: 0.003309
+
+[Summary] Epoch 30 Train Total Loss: 5.9040
+[Collapse Monitor] Avg intra-class archetype distance: 0.6781
+=======================================================================
+
+===================== Epoch 31/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1285 | I(t;y): 0.0000 | Recon: 0.0204 | Total: 5.7908
+   ↳ AA sample loss: 0.006105 | AA cos loss: 0.003453
+[Train] Batch 020 | I(t;x): 1.0842 | I(t;y): 0.0000 | Recon: 0.0216 | Total: 5.9706
+   ↳ AA sample loss: 0.006056 | AA cos loss: 0.003369
+[Train] Batch 030 | I(t;x): 1.1029 | I(t;y): 0.0000 | Recon: 0.0214 | Total: 5.9472
+   ↳ AA sample loss: 0.006044 | AA cos loss: 0.003442
+[Train] Batch 040 | I(t;x): 1.0908 | I(t;y): 0.0000 | Recon: 0.0209 | Total: 5.8362
+   ↳ AA sample loss: 0.005947 | AA cos loss: 0.003511
+
+[Summary] Epoch 31 Train Total Loss: 5.8066
+[Collapse Monitor] Avg intra-class archetype distance: 0.6789
+=======================================================================
+
+===================== Epoch 32/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1241 | I(t;y): 0.0000 | Recon: 0.0214 | Total: 5.9562
+   ↳ AA sample loss: 0.005864 | AA cos loss: 0.003458
+[Train] Batch 020 | I(t;x): 1.1121 | I(t;y): 0.0000 | Recon: 0.0207 | Total: 5.8136
+   ↳ AA sample loss: 0.005816 | AA cos loss: 0.003461
+[Train] Batch 030 | I(t;x): 1.1393 | I(t;y): 0.0000 | Recon: 0.0195 | Total: 5.5972
+   ↳ AA sample loss: 0.005769 | AA cos loss: 0.003380
+[Train] Batch 040 | I(t;x): 1.1105 | I(t;y): 0.0000 | Recon: 0.0195 | Total: 5.5446
+   ↳ AA sample loss: 0.005589 | AA cos loss: 0.003393
+
+[Summary] Epoch 32 Train Total Loss: 5.8028
+[Collapse Monitor] Avg intra-class archetype distance: 0.6778
+=======================================================================
+
+===================== Epoch 33/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1195 | I(t;y): 0.0000 | Recon: 0.0193 | Total: 5.5313
+   ↳ AA sample loss: 0.005463 | AA cos loss: 0.003722
+[Train] Batch 020 | I(t;x): 1.1541 | I(t;y): 0.0000 | Recon: 0.0201 | Total: 5.6991
+   ↳ AA sample loss: 0.005580 | AA cos loss: 0.003233
+[Train] Batch 030 | I(t;x): 1.1110 | I(t;y): 0.0000 | Recon: 0.0204 | Total: 5.7261
+   ↳ AA sample loss: 0.005469 | AA cos loss: 0.003363
+[Train] Batch 040 | I(t;x): 1.1022 | I(t;y): 0.0000 | Recon: 0.0207 | Total: 5.7609
+   ↳ AA sample loss: 0.005427 | AA cos loss: 0.003259
+
+[Summary] Epoch 33 Train Total Loss: 5.7290
+[Collapse Monitor] Avg intra-class archetype distance: 0.6766
+=======================================================================
+
+===================== Epoch 34/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1377 | I(t;y): 0.0000 | Recon: 0.0200 | Total: 5.6486
+   ↳ AA sample loss: 0.005361 | AA cos loss: 0.003219
+[Train] Batch 020 | I(t;x): 1.1185 | I(t;y): 0.0000 | Recon: 0.0210 | Total: 5.8603
+   ↳ AA sample loss: 0.005323 | AA cos loss: 0.003566
+[Train] Batch 030 | I(t;x): 1.1159 | I(t;y): 0.0000 | Recon: 0.0193 | Total: 5.4916
+   ↳ AA sample loss: 0.005220 | AA cos loss: 0.003312
+[Train] Batch 040 | I(t;x): 1.1414 | I(t;y): 0.0000 | Recon: 0.0206 | Total: 5.7707
+   ↳ AA sample loss: 0.005253 | AA cos loss: 0.003392
+
+[Summary] Epoch 34 Train Total Loss: 5.7166
+[Collapse Monitor] Avg intra-class archetype distance: 0.6763
+=======================================================================
+
+===================== Epoch 35/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1160 | I(t;y): 0.0000 | Recon: 0.0203 | Total: 5.6821
+   ↳ AA sample loss: 0.005149 | AA cos loss: 0.003399
+[Train] Batch 020 | I(t;x): 1.1214 | I(t;y): 0.0000 | Recon: 0.0210 | Total: 5.8169
+   ↳ AA sample loss: 0.005220 | AA cos loss: 0.003151
+[Train] Batch 030 | I(t;x): 1.1102 | I(t;y): 0.0000 | Recon: 0.0206 | Total: 5.7234
+   ↳ AA sample loss: 0.005107 | AA cos loss: 0.003221
+[Train] Batch 040 | I(t;x): 1.1218 | I(t;y): 0.0000 | Recon: 0.0200 | Total: 5.6063
+   ↳ AA sample loss: 0.004981 | AA cos loss: 0.003246
+
+[Summary] Epoch 35 Train Total Loss: 5.6196
+[Collapse Monitor] Avg intra-class archetype distance: 0.6764
+=======================================================================
+
+===================== Epoch 36/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.0983 | I(t;y): 0.0000 | Recon: 0.0206 | Total: 5.7274
+   ↳ AA sample loss: 0.004945 | AA cos loss: 0.003425
+[Train] Batch 020 | I(t;x): 1.0998 | I(t;y): 0.0000 | Recon: 0.0207 | Total: 5.9400
+   ↳ AA sample loss: 0.005170 | AA cos loss: 0.006665
+[Train] Batch 030 | I(t;x): 1.0946 | I(t;y): 0.0000 | Recon: 0.0193 | Total: 5.5412
+   ↳ AA sample loss: 0.004984 | AA cos loss: 0.004789
+[Train] Batch 040 | I(t;x): 1.1215 | I(t;y): 0.0000 | Recon: 0.0209 | Total: 5.7799
+   ↳ AA sample loss: 0.004909 | AA cos loss: 0.003217
+
+[Summary] Epoch 36 Train Total Loss: 5.6596
+[Collapse Monitor] Avg intra-class archetype distance: 0.6738
+=======================================================================
+
+===================== Epoch 37/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1214 | I(t;y): 0.0000 | Recon: 0.0197 | Total: 5.5529
+   ↳ AA sample loss: 0.004847 | AA cos loss: 0.003294
+[Train] Batch 020 | I(t;x): 1.1410 | I(t;y): 0.0000 | Recon: 0.0202 | Total: 5.6440
+   ↳ AA sample loss: 0.004785 | AA cos loss: 0.002986
+[Train] Batch 030 | I(t;x): 1.1347 | I(t;y): 0.0000 | Recon: 0.0193 | Total: 5.4560
+   ↳ AA sample loss: 0.004724 | AA cos loss: 0.003012
+[Train] Batch 040 | I(t;x): 1.1148 | I(t;y): 0.0000 | Recon: 0.0197 | Total: 5.5135
+   ↳ AA sample loss: 0.004750 | AA cos loss: 0.002997
+
+[Summary] Epoch 37 Train Total Loss: 5.6021
+[Collapse Monitor] Avg intra-class archetype distance: 0.6663
+=======================================================================
+
+===================== Epoch 38/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1638 | I(t;y): 0.0000 | Recon: 0.0198 | Total: 5.5697
+   ↳ AA sample loss: 0.004720 | AA cos loss: 0.002840
+[Train] Batch 020 | I(t;x): 1.1218 | I(t;y): 0.0000 | Recon: 0.0186 | Total: 5.3065
+   ↳ AA sample loss: 0.004710 | AA cos loss: 0.003018
+[Train] Batch 030 | I(t;x): 1.1179 | I(t;y): 0.0000 | Recon: 0.0190 | Total: 5.3758
+   ↳ AA sample loss: 0.004647 | AA cos loss: 0.003007
+[Train] Batch 040 | I(t;x): 1.1398 | I(t;y): 0.0000 | Recon: 0.0186 | Total: 5.3111
+   ↳ AA sample loss: 0.004678 | AA cos loss: 0.002843
+
+[Summary] Epoch 38 Train Total Loss: 5.5472
+[Collapse Monitor] Avg intra-class archetype distance: 0.6513
+=======================================================================
+
+===================== Epoch 39/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1404 | I(t;y): 0.0000 | Recon: 0.0206 | Total: 5.7162
+   ↳ AA sample loss: 0.004610 | AA cos loss: 0.003130
+[Train] Batch 020 | I(t;x): 1.1011 | I(t;y): 0.0000 | Recon: 0.0199 | Total: 5.5360
+   ↳ AA sample loss: 0.004550 | AA cos loss: 0.003097
+[Train] Batch 030 | I(t;x): 1.1573 | I(t;y): 0.0000 | Recon: 0.0195 | Total: 5.4960
+   ↳ AA sample loss: 0.004546 | AA cos loss: 0.002909
+[Train] Batch 040 | I(t;x): 1.0880 | I(t;y): 0.0000 | Recon: 0.0207 | Total: 5.6881
+   ↳ AA sample loss: 0.004518 | AA cos loss: 0.003170
+
+[Summary] Epoch 39 Train Total Loss: 5.6003
+[Collapse Monitor] Avg intra-class archetype distance: 0.6391
+=======================================================================
+
+===================== Epoch 40/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1187 | I(t;y): 0.0000 | Recon: 0.0198 | Total: 5.5300
+   ↳ AA sample loss: 0.004523 | AA cos loss: 0.002991
+[Train] Batch 020 | I(t;x): 1.1299 | I(t;y): 0.0000 | Recon: 0.0207 | Total: 5.7092
+   ↳ AA sample loss: 0.004521 | AA cos loss: 0.002838
+[Train] Batch 030 | I(t;x): 1.1393 | I(t;y): 0.0000 | Recon: 0.0203 | Total: 5.6631
+   ↳ AA sample loss: 0.004461 | AA cos loss: 0.003368
+[Train] Batch 040 | I(t;x): 1.0867 | I(t;y): 0.0000 | Recon: 0.0195 | Total: 5.4430
+   ↳ AA sample loss: 0.004353 | AA cos loss: 0.003334
+
+[Summary] Epoch 40 Train Total Loss: 5.5899
+[Collapse Monitor] Avg intra-class archetype distance: 0.6340
+=======================================================================
+
+===================== Epoch 41/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1361 | I(t;y): 0.0000 | Recon: 0.0199 | Total: 5.5606
+   ↳ AA sample loss: 0.004379 | AA cos loss: 0.003088
+[Train] Batch 020 | I(t;x): 1.1254 | I(t;y): 0.0000 | Recon: 0.0198 | Total: 5.5112
+   ↳ AA sample loss: 0.004436 | AA cos loss: 0.002824
+[Train] Batch 030 | I(t;x): 1.1459 | I(t;y): 0.0000 | Recon: 0.0202 | Total: 5.6104
+   ↳ AA sample loss: 0.004334 | AA cos loss: 0.002857
+[Train] Batch 040 | I(t;x): 1.1398 | I(t;y): 0.0000 | Recon: 0.0197 | Total: 5.5286
+   ↳ AA sample loss: 0.004351 | AA cos loss: 0.003062
+
+[Summary] Epoch 41 Train Total Loss: 5.5182
+[Collapse Monitor] Avg intra-class archetype distance: 0.6328
+=======================================================================
+
+===================== Epoch 42/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1322 | I(t;y): 0.0000 | Recon: 0.0188 | Total: 5.3359
+   ↳ AA sample loss: 0.004332 | AA cos loss: 0.003057
+[Train] Batch 020 | I(t;x): 1.1067 | I(t;y): 0.0000 | Recon: 0.0207 | Total: 5.6770
+   ↳ AA sample loss: 0.004312 | AA cos loss: 0.002789
+[Train] Batch 030 | I(t;x): 1.1205 | I(t;y): 0.0000 | Recon: 0.0201 | Total: 5.5666
+   ↳ AA sample loss: 0.004285 | AA cos loss: 0.002944
+[Train] Batch 040 | I(t;x): 1.0875 | I(t;y): 0.0000 | Recon: 0.0193 | Total: 5.3810
+   ↳ AA sample loss: 0.004270 | AA cos loss: 0.003002
+
+[Summary] Epoch 42 Train Total Loss: 5.5272
+[Collapse Monitor] Avg intra-class archetype distance: 0.6322
+=======================================================================
+
+===================== Epoch 43/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.0957 | I(t;y): 0.0000 | Recon: 0.0192 | Total: 5.3718
+   ↳ AA sample loss: 0.004271 | AA cos loss: 0.003010
+[Train] Batch 020 | I(t;x): 1.1030 | I(t;y): 0.0000 | Recon: 0.0195 | Total: 5.4087
+   ↳ AA sample loss: 0.004249 | AA cos loss: 0.002614
+[Train] Batch 030 | I(t;x): 1.1360 | I(t;y): 0.0000 | Recon: 0.0210 | Total: 5.7564
+   ↳ AA sample loss: 0.004275 | AA cos loss: 0.002867
+[Train] Batch 040 | I(t;x): 1.1101 | I(t;y): 0.0000 | Recon: 0.0187 | Total: 5.2802
+   ↳ AA sample loss: 0.004218 | AA cos loss: 0.002901
+
+[Summary] Epoch 43 Train Total Loss: 5.4419
+[Collapse Monitor] Avg intra-class archetype distance: 0.6324
+=======================================================================
+
+===================== Epoch 44/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1161 | I(t;y): 0.0000 | Recon: 0.0206 | Total: 5.6657
+   ↳ AA sample loss: 0.004174 | AA cos loss: 0.003077
+[Train] Batch 020 | I(t;x): 1.1341 | I(t;y): 0.0000 | Recon: 0.0180 | Total: 5.1436
+   ↳ AA sample loss: 0.004186 | AA cos loss: 0.002764
+[Train] Batch 030 | I(t;x): 1.1484 | I(t;y): 0.0000 | Recon: 0.0187 | Total: 5.3301
+   ↳ AA sample loss: 0.004143 | AA cos loss: 0.003086
+[Train] Batch 040 | I(t;x): 1.1122 | I(t;y): 0.0000 | Recon: 0.0188 | Total: 5.3018
+   ↳ AA sample loss: 0.004131 | AA cos loss: 0.002958
+
+[Summary] Epoch 44 Train Total Loss: 5.4266
+[Collapse Monitor] Avg intra-class archetype distance: 0.6321
+=======================================================================
+
+===================== Epoch 45/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1028 | I(t;y): 0.0000 | Recon: 0.0209 | Total: 5.7227
+   ↳ AA sample loss: 0.004116 | AA cos loss: 0.003267
+[Train] Batch 020 | I(t;x): 1.0930 | I(t;y): 0.0000 | Recon: 0.0190 | Total: 5.3130
+   ↳ AA sample loss: 0.004053 | AA cos loss: 0.002928
+[Train] Batch 030 | I(t;x): 1.1047 | I(t;y): 0.0000 | Recon: 0.0197 | Total: 5.4634
+   ↳ AA sample loss: 0.004099 | AA cos loss: 0.002965
+[Train] Batch 040 | I(t;x): 1.1301 | I(t;y): 0.0000 | Recon: 0.0190 | Total: 5.3489
+   ↳ AA sample loss: 0.004076 | AA cos loss: 0.002887
+
+[Summary] Epoch 45 Train Total Loss: 5.4460
+[Collapse Monitor] Avg intra-class archetype distance: 0.6320
+=======================================================================
+
+===================== Epoch 46/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1019 | I(t;y): 0.0000 | Recon: 0.0197 | Total: 5.4529
+   ↳ AA sample loss: 0.004105 | AA cos loss: 0.002732
+[Train] Batch 020 | I(t;x): 1.0867 | I(t;y): 0.0000 | Recon: 0.0188 | Total: 5.2566
+   ↳ AA sample loss: 0.004068 | AA cos loss: 0.002796
+[Train] Batch 030 | I(t;x): 1.0951 | I(t;y): 0.0000 | Recon: 0.0191 | Total: 5.3413
+   ↳ AA sample loss: 0.004050 | AA cos loss: 0.002910
+[Train] Batch 040 | I(t;x): 1.1095 | I(t;y): 0.0000 | Recon: 0.0194 | Total: 5.4180
+   ↳ AA sample loss: 0.004046 | AA cos loss: 0.003025
+
+[Summary] Epoch 46 Train Total Loss: 5.4025
+[Collapse Monitor] Avg intra-class archetype distance: 0.6315
+=======================================================================
+
+===================== Epoch 47/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1418 | I(t;y): 0.0000 | Recon: 0.0194 | Total: 5.4273
+   ↳ AA sample loss: 0.004022 | AA cos loss: 0.002695
+[Train] Batch 020 | I(t;x): 1.1385 | I(t;y): 0.0000 | Recon: 0.0197 | Total: 5.4880
+   ↳ AA sample loss: 0.004029 | AA cos loss: 0.002795
+[Train] Batch 030 | I(t;x): 1.0986 | I(t;y): 0.0000 | Recon: 0.0189 | Total: 5.3012
+   ↳ AA sample loss: 0.003999 | AA cos loss: 0.002933
+[Train] Batch 040 | I(t;x): 1.0832 | I(t;y): 0.0000 | Recon: 0.0194 | Total: 5.4006
+   ↳ AA sample loss: 0.003943 | AA cos loss: 0.003387
+
+[Summary] Epoch 47 Train Total Loss: 5.4340
+[Collapse Monitor] Avg intra-class archetype distance: 0.6298
+=======================================================================
+
+===================== Epoch 48/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1474 | I(t;y): 0.0000 | Recon: 0.0201 | Total: 5.5725
+   ↳ AA sample loss: 0.003946 | AA cos loss: 0.002850
+[Train] Batch 020 | I(t;x): 1.1044 | I(t;y): 0.0000 | Recon: 0.0197 | Total: 5.4699
+   ↳ AA sample loss: 0.003953 | AA cos loss: 0.003305
+[Train] Batch 030 | I(t;x): 1.0971 | I(t;y): 0.0000 | Recon: 0.0195 | Total: 5.4302
+   ↳ AA sample loss: 0.003929 | AA cos loss: 0.003386
+[Train] Batch 040 | I(t;x): 1.0949 | I(t;y): 0.0000 | Recon: 0.0196 | Total: 5.4552
+   ↳ AA sample loss: 0.003938 | AA cos loss: 0.003447
+
+[Summary] Epoch 48 Train Total Loss: 5.4712
+[Collapse Monitor] Avg intra-class archetype distance: 0.6263
+=======================================================================
+
+===================== Epoch 49/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.0826 | I(t;y): 0.0000 | Recon: 0.0191 | Total: 5.3104
+   ↳ AA sample loss: 0.003842 | AA cos loss: 0.002808
+[Train] Batch 020 | I(t;x): 1.1119 | I(t;y): 0.0000 | Recon: 0.0185 | Total: 5.2166
+   ↳ AA sample loss: 0.003886 | AA cos loss: 0.002774
+[Train] Batch 030 | I(t;x): 1.1453 | I(t;y): 0.0000 | Recon: 0.0190 | Total: 5.3482
+   ↳ AA sample loss: 0.003836 | AA cos loss: 0.002755
+[Train] Batch 040 | I(t;x): 1.1277 | I(t;y): 0.0000 | Recon: 0.0190 | Total: 5.3144
+   ↳ AA sample loss: 0.003833 | AA cos loss: 0.002771
+
+[Summary] Epoch 49 Train Total Loss: 5.3236
+[Collapse Monitor] Avg intra-class archetype distance: 0.6221
+=======================================================================
+
+===================== Epoch 50/50 =====================
+Mode: Full (KL + Recon + MI + full AA reconstruction + cos loss)
+[Train] Batch 010 | I(t;x): 1.1011 | I(t;y): 0.0000 | Recon: 0.0190 | Total: 5.3100
+   ↳ AA sample loss: 0.003833 | AA cos loss: 0.002938
+[Train] Batch 020 | I(t;x): 1.0734 | I(t;y): 0.0000 | Recon: 0.0190 | Total: 5.2706
+   ↳ AA sample loss: 0.003855 | AA cos loss: 0.002619
+[Train] Batch 030 | I(t;x): 1.1168 | I(t;y): 0.0000 | Recon: 0.0188 | Total: 5.2877
+   ↳ AA sample loss: 0.003810 | AA cos loss: 0.002900
+[Train] Batch 040 | I(t;x): 1.1194 | I(t;y): 0.0000 | Recon: 0.0188 | Total: 5.2872
+   ↳ AA sample loss: 0.003800 | AA cos loss: 0.002861
+
+[Summary] Epoch 50 Train Total Loss: 5.3018
+[Collapse Monitor] Avg intra-class archetype distance: 0.6176
+=======================================================================
+
+[Save] Epoch losses saved to: results/mnist/seed_46_aa_3/epoch_total_losses.pkl
+[Save] Final archetype coordinates saved to: results/mnist/seed_46_aa_3/final_archetypes.npy (shape: (30, 32))
+[Save] Decoded archetype images saved to: results/mnist/seed_46_aa_3/final_archetypes_decoded.npy (shape: (30, 1, 28, 28))
+[Save] Sample-to-AA weight parameters saved to: results/mnist/seed_46_aa_3/fc_sample_to_aa_weights.pth
+[Save] Final model weights saved to: results/mnist/seed_46_aa_3/model_final.pth

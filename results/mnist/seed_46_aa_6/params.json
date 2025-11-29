@@ -1,0 +1,6 @@
+{
+  "SEED": 46,
+  "num_archetypes_per_class": 6,
+  "total_archetypes": 60,
+  "exp_dir": "results/mnist/seed_46_aa_6"
+}

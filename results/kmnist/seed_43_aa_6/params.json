@@ -1,0 +1,6 @@
+{
+  "SEED": 43,
+  "num_archetypes_per_class": 6,
+  "total_archetypes": 60,
+  "exp_dir": "results/kmnist/seed_43_aa_6"
+}
